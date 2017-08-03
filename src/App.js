@@ -1,21 +1,61 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <div>
+        <Navbar inverse fixedTop>
+          <Grid>
+            <Navbar.Header>
+              <Navbar.Brand>
+                <a href="/">React App</a>
+              </Navbar.Brand>
+              <Navbar.Toggle />
+            </Navbar.Header>
+          </Grid>
+        </Navbar>
+        <Jumbotron>
+          <Grid>
+            <h3>Welcome to React with Bootstrap (i.e., react-bootstrap)</h3>
+          </Grid>
+        </Jumbotron>
+        <div className="vontainer">
+          <BodyPane />
+          <FooterPane />
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
 }
 
 export default App;
+
+class BodyPane extends Component {
+  render() {
+    return (
+      <div>
+          <br/>
+          <p>This is the section below the jumbotron</p>
+          <br/>
+          <Button bsStyle="primary">Primary</Button>
+          <Button bsStyle="success">Success</Button>
+          <Button bsStyle="info">Info</Button>
+          <Button bsStyle="warning">Warning</Button>
+      </div>
+    );
+  }
+};
+
+class FooterPane extends Component {
+  render() {
+    return (
+      <div>
+          <br/>
+          <hr/>
+          <p>This is the footer for page</p>
+          <br/>
+      </div>
+    );
+  }
+};
