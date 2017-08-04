@@ -5,6 +5,7 @@ My react learning / playground project
 Completed:
 - uisng bootstrap to style app (using reat-bootstrap)
 - create app that shows members, posts, contents.
+
 Things I need to do / test.
 - get data from a REST API (mock)
 - using jest to test react app.
