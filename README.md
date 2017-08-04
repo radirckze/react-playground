@@ -32,4 +32,11 @@ https://react-bootstrap.github.io/getting-started.html
 React and (plain bootstrap)
 https://www.packtpub.com/books/content/getting-started-react-and-bootstrap
 
+### Testing
+testing using Jest and Rest.js:
+https://hackernoon.com/api-testing-with-jest-d1ab74005c0a
+Option 2: using a full fake rest server, i.e., Json-Server:
+https://github.com/typicode/json-server
+
+
 
