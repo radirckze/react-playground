@@ -5,6 +5,7 @@ import { ListGroup, ListGroupItem } from 'react-bootstrap';
 
 import * as db from './__mock__/sample-data';
 
+//Design: using BodyPane (a test app) and TestPane (jemp test area) to test stuff out.
 class App extends Component {
   render() {
     return (
@@ -36,6 +37,7 @@ class App extends Component {
 
 export default App;
 
+// Has 3 sections: member section (memberList), their publications, publication text.
 class BodyPane extends React.Component {
 
   constructor() {
