@@ -1,0 +1,19 @@
+{
+    "members" : [
+        {"id":1001, "name":"Wolf"},
+        {"id":1002, "name":"Marsellus"},
+        {"id":1003, "name":"Butch"}
+    ],
+    "posts" : [
+        {"id":1001, "memberId":1001, "title":"Wolf's First Post", 
+            "text":"That's 30 minutes away. I'll be there in 10."},
+        {"id":1002, "memberId":1001, "title":"Wolf's Second Post",
+            "text":"I'm Winston Wolf. I solve problems."},
+        {"id":1003, "memberId":1001, "title":"Wolfs's third Post",
+            "text":"Just because you have character doesn't mean you have character."},
+        {"id":1004, "memberId":1003, "title":"Butch's first Post",
+            "text":"That's how you're gonna beat em, Butch. They keep underestimating you "},
+        {"id":1005, "memberId":1003, "title":"Butch's second Post", 
+            "text":"Zed's dead baby, Zed's dead."}
+    ]
+}

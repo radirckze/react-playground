@@ -2,6 +2,11 @@
 
 My react learning / playground project
 
+General notes:
+- the src/api folder contains sample code for accessing a rest api
+- RestServer contains the mock rest server used for project.
+
+
 Completed:
 - uisng bootstrap to style app (using reat-bootstrap)
 - create app that shows members, posts, contents.
@@ -37,6 +42,7 @@ https://www.packtpub.com/books/content/getting-started-react-and-bootstrap
 ### Testing
 testing using Jest and Rest.js:
 https://hackernoon.com/api-testing-with-jest-d1ab74005c0a
+https://github.com/cujojs/rest 
 Option 2: using a full fake rest server, i.e., Json-Server:
 https://github.com/typicode/json-server
 
